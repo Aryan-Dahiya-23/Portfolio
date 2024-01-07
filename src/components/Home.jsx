@@ -18,11 +18,6 @@ const Home = () => {
 
                         <div className="flex flex-row text-center lg:text-start relative">
                             <span className="text-4xl md:text-5xl lg:text-6xl leading-tight text-[#2d2e32] font-bold">Full-Stack MERN Developer👋</span>
-                            {/* <img
-                                src="https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png"
-                                className="absolute right-11 bottom-1 md:right-28 md:bottom-0.5 lg:right-44 lg:bottom-0 h-10 w-10 lg:h-14 lg:w-14"
-                                alt="hello"
-                            /> */}
                         </div>
 
                         <div className="text-[#555] text-center lg:text-start md:text-lg font-[Mulish,sans-serif] font-medium leading-relaxed">
@@ -72,13 +67,13 @@ const Home = () => {
 
                 <div className="py-10 lg:py-14 lg:relative">
 
-                    <div className="lg:absolute flex flex-col justify-center items-center lg:justify-start lg:items-start space-y-6 lg:space-y-0 lg:flex-row w-full bottom-0">
+                    <div className="lg:absolute flex flex-col justify-center items-center lg:justify-start space-y-6 lg:space-y-0 lg:flex-row w-full bottom-0">
 
-                        <div className="flex justify-center items-center pr-8">
-                            <p className="text-[#2d2e32] font-[Mulish,sans-serif]  font-semibold py-2 lg:py-0 lg:px-2 border-b-2 border-b-gray-500 lg:border-r-2 lg:border-r-gray-500 lg:border-b-0">Tech Stack</p>
+                        <div className="flex justify-center items-center lg:pr-8">
+                            <p className="text-[#2d2e32] font-[Mulish,sans-serif] font-semibold py-2 lg:py-0 lg:pr-2 border-b-2 border-b-gray-500 lg:border-r-2 lg:border-r-gray-500 lg:border-b-0">Tech Stack</p>
                         </div>
 
-                        <div className="flex flex-wrap gap-12 md:gap-16 justify-center items-center lg:flex-nowrap lg:justify-start lg:items-start lg:gap-0 lg:space-y-0 lg:flex-row lg:space-x-10">
+                        <div className="flex flex-wrap gap-12 md:gap-16 justify-center items-center lg:flex-nowrap lg:justify-start lg:items-start lg:gap-0 lg:space-y-0 lg:flex-row lg:space-x-7">
 
                             <div className="img-container">
                                 <img
