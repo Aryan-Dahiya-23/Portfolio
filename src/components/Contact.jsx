@@ -10,7 +10,7 @@ const Contact = () => {
 
             <div className="flex flex-col space-y-14 max-w-[66rem] w-full px-4 md:px-10">
 
-                <div className="flex flex-col space-y-2 w-full">
+                <div className="flex flex-col space-y-2.5 w-full">
 
                     <span className="font-bold text-[#147efb] w-full text-2xl text-center md:text-start">Contact</span>
                     <p className="font-extrabold text-2xl text-[#2d2e32] w-full text-center md:text-start">{text}</p>
