@@ -1,0 +1,59 @@
+body {
+    background-color: #fff;
+    font-family: Poppins, sans-serif;
+}
+
+@keyframes slideOpenLeftToRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideCloseRightToLeft {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+        /* display: none; */
+    }
+}
+
+.open-menu {
+    animation: slideOpenLeftToRight 0.5s ease-in-out;
+}
+
+.close-menu {
+    animation: slideCloseRightToLeft 0.5s ease-in-out;
+}
+
+
+.skills {
+    transition: transform 0.4s ease-in-out;
+}
+
+.skills:hover {
+    transform: scale(1.05);
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-container:hover img {
+    transform: translateY(-10px); /* Adjust the value based on your desired upward movement */
+    transition: transform 0.5s ease-in-out; /* Set hover transition */
+}
+
+.img-container:hover {
+    transition: transform 0.5s ease-in-out; /* Set hover transition for container */
+}
