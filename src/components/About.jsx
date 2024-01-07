@@ -39,7 +39,7 @@ const About = () => {
                 <div className="flex flex-col md:max-w-[36rem] lg:w-1/2">
                     <span className="text-[#147efb] font-bold mb-3 lg:mb-1.5 text-center lg:text-start">ABOUT ME</span>
                     <span className="text-2xl font-extrabold text-[#2d2e32] px-2 lg:px-0 mb-5 lg:mb-3 text-center lg:text-start">A dedicated Full-Stack MERN Developer based in India 📍</span>
-                    <p className="font-[Mulish,sans-serif] font-medium text-[#767676] text-center lg:text-start px-2 lg:px-0">{description}</p>
+                    <p className="font-[Mulish,sans-serif] font-medium text-[#767676] text-center lg:text-start">{description}</p>
                 </div>
 
             </div>
