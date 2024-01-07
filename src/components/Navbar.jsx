@@ -14,10 +14,10 @@ const Navbar = () => {
             <div className="text-[#2d2e32] text-[1.4rem] font-bold cursor-pointer">Aryan.dev</div>
 
             <div className="hidden font-semibold space-x-5 pr-5 text-[1.17rem] text-[#2d2e32] lg:flex">
-                <a href="" className="flex items-center cursor-pointer hover:text-sky-500">Home</a>
-                <a href="" className="flex items-center cursor-pointer hover:text-sky-500">About</a>
-                <a href="" className="flex items-center cursor-pointer hover:text-sky-500">Projects</a>
-                <a href="" className="flex items-center cursor-pointer hover:text-sky-500">Contact</a>
+                <a href="#home" className="flex items-center cursor-pointer hover:text-sky-500">Home</a>
+                <a href="#about" className="flex items-center cursor-pointer hover:text-sky-500">About</a>
+                <a href="#projects" className="flex items-center cursor-pointer hover:text-sky-500">Projects</a>
+                <a href="#contact" className="flex items-center cursor-pointer hover:text-sky-500">Contact</a>
             </div>
 
             <button className="hover:text-blue-500 hover:bg-gray-100 lg:hidden" onClick={toggleDrawer}>

@@ -7,7 +7,7 @@ const Home = () => {
 
     const bio = "Hi, I'm Aryan Dahiya. A passionate Full-stack MERN Developer based in India. 📍"
 
-    // const imgSrc = "https://user-images.githubusercontent.com/74038190/290078797-bea7769e-cd87-495f-ad0e-04ddfbb73091.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ2MTkxNTksIm5iZiI6MTcwNDYxODg1OSwicGF0aCI6Ii83NDAzODE5MC8yOTAwNzg3OTctYmVhNzc2OWUtY2Q4Ny00OTVmLWFkMGUtMDRkZGZiYjczMDkxLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA3VDA5MTQxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYxZjU5ZWRiOGQ4YWM3NDRmYWFmNTkzZDYxZjQ1NWVmNGZlZmIwNGNkMzViMmY3MGIwNzc3NWM5ZmRkZmE5NDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.dHo9jql1irTrZDTayNggNVC_gx50Dilx21l0lT5-ahQ"
+    const imgSrc = "https://user-images.githubusercontent.com/74038190/290078797-bea7769e-cd87-495f-ad0e-04ddfbb73091.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ2MTkxNTksIm5iZiI6MTcwNDYxODg1OSwicGF0aCI6Ii83NDAzODE5MC8yOTAwNzg3OTctYmVhNzc2OWUtY2Q4Ny00OTVmLWFkMGUtMDRkZGZiYjczMDkxLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA3VDA5MTQxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYxZjU5ZWRiOGQ4YWM3NDRmYWFmNTkzZDYxZjQ1NWVmNGZlZmIwNGNkMzViMmY3MGIwNzc3NWM5ZmRkZmE5NDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.dHo9jql1irTrZDTayNggNVC_gx50Dilx21l0lT5-ahQ"
 
     return (
         <section className="flex justify-center items-center h-auto lg:h-[100vh] w-full bg-[#f9f9f9]" id="home">
@@ -59,7 +59,7 @@ const Home = () => {
                     <div className="flex justify-center items-center lg:ml-auto">
 
                         <img
-                            src={profileImage}
+                            src={imgSrc}
                             alt="profile"
                             className="h-80 w-80 rounded-full object-cover object-top"
                         />
