@@ -33,17 +33,17 @@ const Contact = () => {
                         </div>
                     </div>
 
-                   
+
                     <div className="flex flex-col justify-center items-center space-y-1 md:space-y-0 md:flex-row gap-2">
 
                         <div className="md:pr-2">
                             <div className="p-2 shadow rounded-full text-4xl text-[#147efb]">
-                                <MdMailOutline />
+                                <a href="mailto:aryan23dahiya@gmail.com"> <MdMailOutline /> </a>
                             </div>
                         </div>
 
                         <div className="flex flex-col space-y-1">
-                        <span className="text-center md:text-start font-extrabold text-[#2d2e32]">Mail</span>
+                            <span className="text-center md:text-start font-extrabold text-[#2d2e32]">Mail</span>
                             <a href="mailto:aryan23dahiya@gmail.com" className="cursor-pointer hover:text-[#147efb] text-[#767676]">aryan23dahiya@gmail.com</a>
                         </div>
                     </div>
