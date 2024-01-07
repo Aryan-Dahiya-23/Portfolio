@@ -1,20 +1,28 @@
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import { FiGithub } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
-// import profileImage from "../assets/profile.jpeg"
+import SkillIcon from "./SkillIcon";
+import HelloGif from "../assets/HelloGif.gif"
 
 const Home = () => {
 
     const bio = "Hi, I'm Aryan Dahiya. A passionate Software Engineer based in India. 📍"
 
-    const imgSrc = "https://user-images.githubusercontent.com/74038190/290078797-bea7769e-cd87-495f-ad0e-04ddfbb73091.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ2MTkxNTksIm5iZiI6MTcwNDYxODg1OSwicGF0aCI6Ii83NDAzODE5MC8yOTAwNzg3OTctYmVhNzc2OWUtY2Q4Ny00OTVmLWFkMGUtMDRkZGZiYjczMDkxLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA3VDA5MTQxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYxZjU5ZWRiOGQ4YWM3NDRmYWFmNTkzZDYxZjQ1NWVmNGZlZmIwNGNkMzViMmY3MGIwNzc3NWM5ZmRkZmE5NDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.dHo9jql1irTrZDTayNggNVC_gx50Dilx21l0lT5-ahQ"
+    const skillIconsData = [
+        { src: 'https://skillicons.dev/icons?i=html,css', alt: 'HTML CSS' },
+        { src: 'https://skillicons.dev/icons?i=tailwind,bootstrap', alt: 'Tailwind Bootstrap' },
+        { src: 'https://skillicons.dev/icons?i=js,ts', alt: 'JavaScript TypeScript' },
+        { src: 'https://skillicons.dev/icons?i=react,next', alt: 'React Next' },
+        { src: 'https://skillicons.dev/icons?i=nodejs,express', alt: 'Node Express' },
+        { src: 'https://skillicons.dev/icons?i=postgres,mongodb', alt: 'PostgreSQL MongoDB' },
+    ];
 
     return (
-        <section className="flex justify-center items-center h-auto lg:h-[100vh] w-full bg-[#f9f9f9]" id="home">
+        <section className="flex justify-center items-center h-auto lg:h-[100vh] pb-10 lg:pb-0 w-full bg-[#f9f9f9]" id="home">
 
-            <div className="flex flex-col space-y-7 max-w-[90%] md:max-w-[60rem]">
+            <div className="flex flex-col space-y-7 max-w-[90%] md:max-w-[66rem]">
 
-                <div className="flex flex-col-reverse justify-center items-center space-y-reverse space-y-10 lg:space-y-0 lg:flex-row mt-28 lg:gap-10">
+                <div className="flex flex-col-reverse justify-center items-center space-y-reverse space-y-10 lg:space-y-0 lg:flex-row mt-28 lg:gap-24">
 
                     <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start space-y-5 max-w-[32rem]">
 
@@ -59,7 +67,7 @@ const Home = () => {
                     <div className="flex justify-center items-center lg:ml-auto">
 
                         <img
-                            src={imgSrc}
+                            src={HelloGif}
                             alt="profile"
                             className="h-80 w-80 rounded-full object-cover object-top"
                         />
@@ -78,57 +86,9 @@ const Home = () => {
 
                         <div className="flex flex-wrap gap-12 md:gap-16 justify-center items-center lg:flex-nowrap lg:justify-start lg:items-start lg:gap-0 lg:space-y-0 lg:flex-row lg:space-x-7">
 
-                            <div className="img-container">
-                                <img
-                                    src="https://skillicons.dev/icons?i=html,css"
-                                    alt="html css"
-                                    className="cursor-pointer"
-                                />
-                            </div>
-
-                            <div className="img-container">
-                                <img
-                                    src="https://skillicons.dev/icons?i=tailwind,bootstrap"
-                                    alt="tailwind bootstrap"
-                                    className="cursor-pointer"
-                                />
-                            </div>
-
-                            <div className="img-container">
-
-                                <img
-                                    src="https://skillicons.dev/icons?i=js,ts"
-                                    alt="JS TS"
-                                    className="cursor-pointer"
-                                />
-                            </div>
-
-                            <div className="img-container">
-
-                                <img
-                                    src="https://skillicons.dev/icons?i=react,next"
-                                    alt="react next"
-                                    className="cursor-pointer"
-                                />
-                            </div>
-
-                            <div className="img-container">
-
-                                <img
-                                    src="https://skillicons.dev/icons?i=nodejs,express"
-                                    alt="node express"
-                                    className="cursor-pointer"
-                                />
-                            </div>
-
-                            <div className="img-container">
-
-                                <img
-                                    src="https://skillicons.dev/icons?i=postgres,mongodb"
-                                    alt=""
-                                    className="cursor-pointer"
-                                />
-                            </div>
+                            {skillIconsData.map((icon, index) => (
+                                <SkillIcon key={index} src={icon.src} alt={icon.alt} />
+                            ))}
 
                         </div>
                     </div>
