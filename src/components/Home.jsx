@@ -1,7 +1,7 @@
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import { FiGithub } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
-import profileImage from "../assets/profile.jpeg"
+// import profileImage from "../assets/profile.jpeg"
 
 const Home = () => {
 
@@ -26,7 +26,7 @@ const Home = () => {
                             {bio}
                         </div>
 
-                        <div className="flex flex-row space-x-5 text-3xl">
+                        <div className="flex flex-row space-x-5 text-3xl text-black">
                             <a
                                 href="https://github.com/Aryan-Dahiya-23"
                                 target={window.innerWidth > 768 ? "_blank" : "_self"}
@@ -75,7 +75,7 @@ const Home = () => {
                             <p className="text-[#2d2e32] font-[Mulish,sans-serif] min-w-max font-semibold py-2 lg:py-0 lg:pr-2 border-b-2 border-b-gray-500 lg:border-r-2 lg:border-r-gray-500 lg:border-b-0">Tech Stack</p>
                         </div>
 
-                       
+
                         <div className="flex flex-wrap gap-12 md:gap-16 justify-center items-center lg:flex-nowrap lg:justify-start lg:items-start lg:gap-0 lg:space-y-0 lg:flex-row lg:space-x-7">
 
                             <div className="img-container">

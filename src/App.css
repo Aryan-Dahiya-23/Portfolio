@@ -32,7 +32,6 @@ body {
     animation: slideCloseRightToLeft 0.5s ease-in-out;
 }
 
-
 .skills {
     transition: transform 0.4s ease-in-out;
 }
@@ -50,10 +49,23 @@ body {
 }
 
 .img-container:hover img {
-    transform: translateY(-10px); /* Adjust the value based on your desired upward movement */
-    transition: transform 0.5s ease-in-out; /* Set hover transition */
+    transform: translateY(-10px);
+    transition: transform 0.5s ease-in-out;
 }
 
 .img-container:hover {
-    transition: transform 0.5s ease-in-out; /* Set hover transition for container */
+    transition: transform 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+    width: 7.5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8e8e8e;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
 }

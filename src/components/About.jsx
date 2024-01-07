@@ -31,7 +31,7 @@ const About = () => {
     const imgSrc = "https://user-images.githubusercontent.com/74038190/212746035-d5c61762-973c-44c0-aec7-887f3b7690e3.gif"
 
     return (
-        <div className="flex justify-center items-center py-20 lg:py-40 bg-[#fff]">
+        <div className="flex justify-center items-center py-20 lg:py-40 bg-[#fff]" id="about">
 
             <div className="flex flex-col justify-center items-center lg:justify-normal lg:items-start lg:flex-row max-w-[61rem]">
 
