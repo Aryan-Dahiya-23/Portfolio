@@ -37,7 +37,7 @@ const Projects = () => {
                         duration="(AUG-SEPT 2023)"
                         icon="🌐"
                         description={sociopediaDescription}
-                        githubLink="https://github.com/Aryan-Dahiya-23/sociopedia-frontend"
+                        githubLink="https://github.com/Aryan-Dahiya-23/sociopedia"
                         liveLink="https://sociopedia-aryan.vercel.app"
                     />
 
@@ -48,7 +48,7 @@ const Projects = () => {
                         duration="(NOV-DEC 2023)"
                         icon="💬"
                         description={nexusDescription}
-                        githubLink="https://github.com/Aryan-Dahiya-23/nexus-frontend"
+                        githubLink="https://github.com/Aryan-Dahiya-23/nexus"
                         liveLink="https://nexus-aryan.vercel.app"
                     />
                 </div>
