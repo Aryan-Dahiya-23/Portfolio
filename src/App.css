@@ -81,21 +81,20 @@ body {
 
     .image-container {
         width: 100%;
-        /* height: 310px; */
     }
 }
 
-/* .in-view {
+ .in-view {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 1s ease, transform 1s ease;
-} */
+} 
 
 .animated-image {
     width: 100%;
     height: 100%;
 }
-/* 
+
 .animate {
     animation: scrollAnimation 10s infinite alternate;
 }
@@ -106,10 +105,10 @@ body {
     }
 
     100% {
-        transform: translateY(-85%);
+        transform: translateY(-87.5%);
     }
 }
 
 .reset {
     transform: translateY(0);
-} */
+}
