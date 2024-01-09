@@ -13,7 +13,7 @@ const ProjectCard = ({ id, img, title, duration, icon, description, githubLink, 
         const options = {
             root: null,
             rootMargin: '0px',
-            threshold: 0.5,
+            threshold: 1,
         };
 
         const callback = (entries) => {
@@ -38,7 +38,7 @@ const ProjectCard = ({ id, img, title, duration, icon, description, githubLink, 
         <div className="flex flex-col w-auto md:max-w-min lg:w-auto items-center lg:items-stretch lg:flex-row max-h-[47.5rem] md:max-h-[47.5rem] lg:max-h-[25rem] gap-12 lg:gap-20 p-5 rounded-2xl shadow-[0_0_10px_rgba(0,0,0,0.1)] bg-[#fff]">
 
             <div className={`image-container ${ id !== 'nexus' && (isInView ? 'in-view' : 'reset')}`} id={id}>
-                <a href="https://ecommerce-deploy-lft5.vercel.app" target="_blank" rel="noopener noreferrer">
+                <a href={liveLink} target="_blank" rel="noopener noreferrer">
                     <img
                         src={img}
                         alt="project image"
@@ -47,7 +47,7 @@ const ProjectCard = ({ id, img, title, duration, icon, description, githubLink, 
                 </a>
             </div>
 
-            <div className="flex flex-col w-[18.5rem] h-auto lg:pt-2">
+            <div className="flex flex-col w-[20rem] h-auto lg:pt-2">
 
                 <h3 className="flex justify-center items-center mb-4 lg:mb-3 font-extrabold text-[#2d2e32]">{title}
                     <span className="ml-1.5 mr-1.5 text-[0.75rem] text-[hsla(0,5%,8%,.773)]">{duration}</span>
@@ -75,13 +75,13 @@ const ProjectCard = ({ id, img, title, duration, icon, description, githubLink, 
                             <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-green-500 bg-[#fff] px-2.5 py-2 rounded-md border-2 border-green-500 font-[Mulish,sans-serif]">MongoDB</p>
                         </div>
                         :
-                        <div className="flex flex-wrap justify-center items-center mb-7 lg:mb-8 gap-3 text-sm">
+                        <div className="flex flex-wrap justify-center items-center mb-7 lg:mb-8 gap-4 text-sm">
                             <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-blue-500 bg-[#fff] px-2 py-2 rounded-md border-2 border-blue-500 font-[Mulish,sans-serif]">React JS</p>
-                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-yellow-500 bg-[#fff] px-2 py-2 rounded-md border-2 border-yellow-500 font-[Mulish,sans-serif]">Socket IO</p>
-                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-violet-500 bg-[#fff] px-2 py-2 rounded-md border-2 border-violet-500 font-[Mulish,sans-serif]">Passport JS</p>
-                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-green-500 bg-[#fff] px-2 py-2 rounded-md border-2 border-green-500 font-[Mulish,sans-serif]">Node JS</p>
-                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-green-500 bg-[#fff] px-2 py-2 rounded-md border-2 border-blue-500 font-[Mulish,sans-serif]">React Query</p>
-                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-red-500 bg-[#fff] px-2 py-2 rounded-md border-2 border-red-500 font-[Mulish,sans-serif]">WEB RTC</p>
+                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-yellow-500 bg-[#fff] px-2.5 py-2 rounded-md border-2 border-yellow-500 font-[Mulish,sans-serif]">Socket IO</p>
+                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-violet-500 bg-[#fff] px-2.5 py-2 rounded-md border-2 border-violet-500 font-[Mulish,sans-serif]">Passport JS</p>
+                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-green-500 bg-[#fff] px-2.5 py-2 rounded-md border-2 border-green-500 font-[Mulish,sans-serif]">Node JS</p>
+                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-red-500 bg-[#fff] px-2.5 py-2 rounded-md border-2 border-red-500 font-[Mulish,sans-serif]">WEB RTC</p>
+                            <p className="text-[#000] font-semibold shadow-[0_0_7px_rgba(0,0,0,0.1)] shadow-blue-500 bg-[#fff] px-2.5 py-2 rounded-md border-2 border-blue-500 font-[Mulish,sans-serif]">React Query</p>
                         </div>
                 }
                 <div className="flex flex-row justify-center items-center gap-10 mt-auto lg:pb-1 font-semibold ">
