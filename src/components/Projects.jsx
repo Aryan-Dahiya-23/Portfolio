@@ -13,7 +13,7 @@ const Projects = () => {
   
     return (
         <section className="flex justify-center items-center py-20 lg:py-40 bg-[#f9f9f9]" id="projects">
-            <div className="flex flex-col px-4 md:px-10 min-w-[90%] md:max-w-[66rem]">
+            <div className="flex flex-col px-4 md:px-10 min-w-[90%] md:max-w-[66rem] md:min-w-max">
 
                 <p className="text-center mb-2 font-bold text-[#147efb]">PORTFOLIO</p>
                 <h3 className="text-2xl text-center font-extrabold mb-14 text-[#2d2e32]">Each project is a unique piece of development 🧩</h3>
