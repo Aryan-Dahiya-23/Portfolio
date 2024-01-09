@@ -35,7 +35,7 @@ const ProjectCard = ({ id, img, title, duration, icon, description, githubLink, 
     }, [id]);
 
     return (
-        <div className="flex flex-col w-auto md:max-w-min lg:w-auto items-center lg:items-stretch lg:flex-row max-h-[47.5rem] md:max-h-[47.5rem] lg:max-h-[25rem] gap-12 lg:gap-20 p-5 rounded-2xl shadow-[0_0_10px_rgba(0,0,0,0.1)] bg-[#fff]">
+        <div className="flex flex-col min-w-full md:max-w-min lg:w-auto items-center lg:items-stretch lg:flex-row max-h-[47.5rem] md:max-h-[47.5rem] lg:max-h-[25rem] gap-12 lg:gap-20 p-5 rounded-2xl shadow-[0_0_10px_rgba(0,0,0,0.1)] bg-[#fff]">
 
             <div className={`image-container ${ id !== 'nexus' && (isInView ? 'in-view' : 'reset')}`} id={id}>
                 <a href={liveLink} target="_blank" rel="noopener noreferrer">
