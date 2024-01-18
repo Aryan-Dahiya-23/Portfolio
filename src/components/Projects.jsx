@@ -2,15 +2,18 @@ import ProjectCard from "./ProjectCard"
 import Audioverse from "../assets/Audioverse.jpeg"
 import Sociopedia from "../assets/Sociopedia.jpeg"
 import Nexus from "../assets/Nexus.png"
+import Evently from "../assets/evently.png"
 
 const Projects = () => {
 
     const audioverseDescription = "Audioverse is a sleek eCommerce app for seamless, stylish shopping. Diverse products, personalized recommendations, and secure transactions redefine the online retail experience"
-  
+
     const sociopediaDescription = "Developed a vibrant social media app that connects users seamlessly. Share moments, connect with friends, and stay updated. Experience a dynamic platform fostering communication and community engagement."
-  
+
     const nexusDescription = "Nexus is a dynamic chat app with seamless video calls. Connect effortlessly, share messages, images and videos, and elevate conversations in real-time. Redefine communication with this user-friendly platform."
-  
+
+    const eventlyDescription = "Evently is Your Ultimate Event Hub. Whether booking your dream event or posting your latest happening, Evently simplifies it all. Effortless event planning, seamless experiences – your go-to platform for all things events!"
+   
     return (
         <section className="flex justify-center items-center py-20 lg:py-40 bg-[#f9f9f9]" id="projects">
             <div className="flex flex-col px-4 md:px-10 min-w-[90%] md:max-w-[66rem] md:min-w-max">
@@ -50,6 +53,17 @@ const Projects = () => {
                         description={nexusDescription}
                         githubLink="https://github.com/Aryan-Dahiya-23/nexus"
                         liveLink="https://nexus-aryan.vercel.app"
+                    />
+
+                    <ProjectCard
+                        id='evently'
+                        img={Evently}
+                        title="EVENTLY"
+                        duration="(JANUARY 2024)"
+                        icon="🔖"
+                        description={eventlyDescription}
+                        githubLink="https://github.com/Aryan-Dahiya-23/evently"
+                        liveLink="https://evently-aryan.vercel.app"
                     />
                 </div>
 

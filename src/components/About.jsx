@@ -11,6 +11,7 @@ const About = () => {
     // const imgSrc = 'https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2b04-4e3b-93ca-ac14705da224.gif'
     // const imgSrc = "https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif"
     // const imgSrc = "https://user-images.githubusercontent.com/74038190/212746035-d5c61762-973c-44c0-aec7-887f3b7690e3.gif"
+    // const imgSrc = "https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif"
 
     return (
         <div className="flex justify-center items-center py-20 lg:py-40 bg-[#fff]" id="about">
